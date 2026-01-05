@@ -38,11 +38,13 @@ pip install pandas dataframe_image
 ## 使い方
 
 基本実行（日付ごとに集計）
+```bash
 python main.py --input data.xlsx --output result.png
-
+```
 カテゴリごとに集計
+```bash
 python main.py --input data.xlsx --output result.png --sort-type category
-
+```
 ---
 
 ## 入力データ形式（例）
