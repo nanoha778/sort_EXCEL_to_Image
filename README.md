@@ -47,10 +47,11 @@ python main.py --input data.xlsx --output result.png --sort-type category
 
 ## 入力データ形式（例）
 
+```
 date	category	amount
 2026-01-01	A	1200
 2026-01-02	B	700
-
+```
 date : 日付
 
 category : カテゴリ名
